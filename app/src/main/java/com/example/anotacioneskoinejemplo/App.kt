@@ -19,7 +19,6 @@ class App: Application() {
         instance = this
 
         startKoin {
-            Log.i("TEST", "llego")
             androidLogger()
             androidContext(this@App)
             modules(
